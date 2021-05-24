@@ -60,26 +60,15 @@
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 
-\author{}
-\date{}
+\title{Experimental report for the 2021 COM1005 Assignment: The Rambler's Problem\footnote{https://github.com/JiaaoWang04/COM1005_Assignment_Report}}
+\author{Jiaao Wang}
+\date{2021/05/24}
 
 \begin{document}
 
-\hypertarget{header-n320}{%
-\section{Experimental report for the 2021 COM1005 Assignment: The
-Rambler's Problem}\label{header-n320}}
+\maketitle
 
-\begin{itemize}
-\item
-  GitHub:
-  \href{https://github.com/JiaaoWang04/COM1005_Assignment_Report.git}{link}
-\item
-  Date: 2021/05/24
-\end{itemize}
-
-\hypertarget{header-n327}{%
-\subsection{Description of my branch-and-bound
-implementation}\label{header-n327}}
+\section{Description of my branch-and-bound implementation}
 
 Maintain two lists
 
@@ -125,8 +114,7 @@ When the \emph{open} list is not empty, perform the following operations
   \end{enumerate}
 \end{enumerate}
 
-\hypertarget{header-n353}{%
-\subsection{Description of my A* implementation}\label{header-n353}}
+\section{Description of my A* implementation}
 
 Maintain two lists
 
@@ -174,9 +162,16 @@ when the node \emph{n} is selected from \emph{open}, according to the
 estimated result of the heuristic function \emph{Estimated Remained
 Cost}.
 
-\hypertarget{header-n376}{%
-\subsection{Assessing the efficiency of my branch-and-bound search
-algorithm}\label{header-n376}}
+\section{Assessing efficiency}
+
+\begin{figure}[ht]
+\centering
+  \includegraphics[scale=0.4]{./images/Panda.png}
+  \caption{This is Heidi's cat Panda.}
+  \label{fig:panda}
+ \end{figure} 
+ 
+\subsection{Assessing the efficiency of my branch-and-bound search algorithm}
 
 The following are three sets of experiments. The map data used in each
 set of experiments comes from the file "diablo.pgm". The software in the
@@ -265,9 +260,7 @@ be guided by this local optimal solution, thus performing a large number
 of additional calculations. , Although these local optimal solutions may
 be far from the global optimal solution.
 
-\hypertarget{header-n406}{%
-\subsection{Assessing the efficiency of my A* search
-algorithm}\label{header-n406}}
+\subsection{Assessing the efficiency of my A* search algorithm}
 
 Use the same experiment as the previous topic, but use the A* version of
 the algorithm
@@ -438,8 +431,7 @@ shows that as long as the heuristic function \(H\) can accurately
 describe the gradient change from the node to the target, then * A**
 algorithm can accurately find the target.
 
-\hypertarget{header-n463}{%
-\subsection{Comparing the two search strategies}\label{header-n463}}
+\subsection{Comparing the two search strategies}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -498,8 +490,7 @@ algorithm can accurately find the target.
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{header-n488}{%
-\subsection{Conclusions}\label{header-n488}}
+\section{Conclusions}
 
 Through this lab homework, I learned
 
@@ -515,11 +506,5 @@ Through this lab homework, I learned
 \item
   Dynamic planning ideas.
 \end{itemize}
-
-\begin{figure}
-\centering
-\includegraphics{./images/panda.png}
-\caption{}
-\end{figure}
 
 \end{document}

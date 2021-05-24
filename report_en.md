@@ -180,3 +180,6 @@ Through this lab homework, I learned
 - *A\** algorithm and the influence of the heuristic function $H$ on the *A\** algorithm.
 - Basic experimental methods, research methods and algorithm visualization methods.
 - Dynamic planning ideas.
+
+![Panda](./images/panda.png)
+
